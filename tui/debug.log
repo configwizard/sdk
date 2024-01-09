@@ -1,0 +1,84 @@
+debug 2024/01/09 12:55:41 3.1 container starting action chan handler
+debug 2024/01/09 12:55:41 created responsechannel  0x140002eaa20
+debug 2024/01/09 12:55:41 [2024-01-09T12:55:41Z] Add: container_action_chan-_github.com/configwizard/sdk/controller.(*Controller).PerformContainerAction.func1, groups size: 1, keys: [container_action_chan-_github.com/configwizard/sdk/controller.(*Controller).PerformContainerAction.func1]
+debug 2024/01/09 12:55:41 c.wallet SignRequest &{NQtxsStXxvtRyz2B1yJXTXCeEoxsUJBkxW 031ad3c83a6b1cbab8e19df996405cb6e18151a14f7ecd76eb4f51901db1426f0b {[mock signer] 0x104aba2b0}}
+debug 2024/01/09 12:55:41 have been requested to sign  [10 16 109 115 134 72 238 157 72 163 136 70 191 234 221 93 229 113 18 27 10 25 53 157 65 95 22 244 58 100 117 174 22 229 31 90 239 87 249 113 168 222 51 17 165 139 140 26 0 34 33 2 250 174 34 182 174 239 50 130 40 131 221 20 171 244 156 98 183 218 33 162 197 53 121 99 244 65 71 50 242 62 28 123 50 4 8 1 16 1]
+debug 2024/01/09 12:55:41 c.wallet UpdateFromWalletConnect &{NQtxsStXxvtRyz2B1yJXTXCeEoxsUJBkxW 031ad3c83a6b1cbab8e19df996405cb6e18151a14f7ecd76eb4f51901db1426f0b {[mock signer] 0x104aba2b0}}
+debug 2024/01/09 12:55:41 uid  60df66f8-dbed-46c6-adde-05f99fb06c32
+debug 2024/01/09 12:55:41 created updatedPayload  0x140002eaa20
+debug 2024/01/09 12:55:41 [2024-01-09T12:55:41Z] Add: container_action_exec_github.com/configwizard/sdk/controller.(*Controller).PerformContainerAction.func2, groups size: 2, keys: [container_action_chan-_github.com/configwizard/sdk/controller.(*Controller).PerformContainerAction.func1 container_action_exec_github.com/configwizard/sdk/controller.(*Controller).PerformContainerAction.func2]
+debug 2024/01/09 12:55:41 [2024-01-09T12:55:41Z] Add: containerList, groups size: 3, keys: [container_action_exec_github.com/configwizard/sdk/controller.(*Controller).PerformContainerAction.func2 containerList container_action_chan-_github.com/configwizard/sdk/controller.(*Controller).PerformContainerAction.func1]
+debug 2024/01/09 12:55:41 success type, creating notification for database
+debug 2024/01/09 12:55:41 [2024-01-09T12:55:41Z] Done: containerList, groups size: 2, keys: [container_action_exec_github.com/configwizard/sdk/controller.(*Controller).PerformContainerAction.func2 container_action_chan-_github.com/configwizard/sdk/controller.(*Controller).PerformContainerAction.func1]
+debug 2024/01/09 12:55:41 3 closing everything down
+debug 2024/01/09 12:55:41 3 closed action chan handler
+debug 2024/01/09 12:55:41 [2024-01-09T12:55:41Z] Done: container_action_chan-_github.com/configwizard/sdk/controller.(*Controller).PerformContainerAction.func1, groups size: 1, keys: [container_action_exec_github.com/configwizard/sdk/controller.(*Controller).PerformContainerAction.func2]
+debug 2024/01/09 12:55:41 3. closed action handler
+debug 2024/01/09 12:55:41 emitting  {mock-notifier-94d9a4c7-9999-4055-a549-f51383edfe57  list complete! success 1 object object completed map[]  false}
+debug 2024/01/09 12:55:41 [2024-01-09T12:55:41Z] Done: container_action_exec_github.com/configwizard/sdk/controller.(*Controller).PerformContainerAction.func2, groups size: 0, keys: []
+debug 2024/01/09 12:55:41 3. perform action stopped
+debug 2024/01/09 12:55:41 notification events: firing notification {Id:mock-notifier-94d9a4c7-9999-4055-a549-f51383edfe57 User: Title:list complete! Type:success Action:1 Description:object object completed Meta:map[] CreatedAt: MarkRead:false}
+debug 2024/01/09 12:55:41 FINISH closed action  0x104ab9f90
+debug 2024/01/09 13:11:44 3.1 container starting action chan handler
+debug 2024/01/09 13:11:44 created responsechannel  0x140004a52c0
+debug 2024/01/09 13:11:44 c.wallet SignRequest &{NQtxsStXxvtRyz2B1yJXTXCeEoxsUJBkxW 031ad3c83a6b1cbab8e19df996405cb6e18151a14f7ecd76eb4f51901db1426f0b {[mock signer] 0x104c1b1b0}}
+debug 2024/01/09 13:11:44 have been requested to sign  [10 16 231 243 230 38 143 227 69 211 147 138 196 114 26 51 143 10 18 27 10 25 53 192 243 100 148 15 107 108 25 181 249 215 93 183 154 243 225 178 43 203 106 206 104 177 107 26 0 34 33 3 1 9 216 4 22 152 40 196 34 67 87 94 162 37 195 148 231 118 87 171 254 248 48 175 240 213 103 111 225 160 99 13 50 4 8 1 16 1]
+debug 2024/01/09 13:11:44 c.wallet UpdateFromWalletConnect &{NQtxsStXxvtRyz2B1yJXTXCeEoxsUJBkxW 031ad3c83a6b1cbab8e19df996405cb6e18151a14f7ecd76eb4f51901db1426f0b {[mock signer] 0x104c1b1b0}}
+debug 2024/01/09 13:11:44 uid  2f9ccba0-423d-4560-ac53-48faf571a980
+debug 2024/01/09 13:11:44 created updatedPayload  0x140004a52c0
+debug 2024/01/09 13:11:44 [2024-01-09T13:11:44Z] Add: container_action_chan-_github.com/configwizard/sdk/controller.(*Controller).PerformContainerAction.func1, groups size: 1, keys: [container_action_chan-_github.com/configwizard/sdk/controller.(*Controller).PerformContainerAction.func1]
+debug 2024/01/09 13:11:44 [2024-01-09T13:11:44Z] Add: container_action_exec_github.com/configwizard/sdk/controller.(*Controller).PerformContainerAction.func2, groups size: 2, keys: [container_action_chan-_github.com/configwizard/sdk/controller.(*Controller).PerformContainerAction.func1 container_action_exec_github.com/configwizard/sdk/controller.(*Controller).PerformContainerAction.func2]
+debug 2024/01/09 13:11:44 [2024-01-09T13:11:44Z] Add: containerList, groups size: 3, keys: [containerList container_action_chan-_github.com/configwizard/sdk/controller.(*Controller).PerformContainerAction.func1 container_action_exec_github.com/configwizard/sdk/controller.(*Controller).PerformContainerAction.func2]
+debug 2024/01/09 13:11:44 success type, creating notification for database
+debug 2024/01/09 13:11:44 [2024-01-09T13:11:44Z] Done: containerList, groups size: 2, keys: [container_action_chan-_github.com/configwizard/sdk/controller.(*Controller).PerformContainerAction.func1 container_action_exec_github.com/configwizard/sdk/controller.(*Controller).PerformContainerAction.func2]
+debug 2024/01/09 13:11:44 3 closing everything down
+debug 2024/01/09 13:11:44 3 closed action chan handler
+debug 2024/01/09 13:11:44 [2024-01-09T13:11:44Z] Done: container_action_chan-_github.com/configwizard/sdk/controller.(*Controller).PerformContainerAction.func1, groups size: 1, keys: [container_action_exec_github.com/configwizard/sdk/controller.(*Controller).PerformContainerAction.func2]
+debug 2024/01/09 13:11:44 3. closed action handler
+debug 2024/01/09 13:11:44 [2024-01-09T13:11:44Z] Done: container_action_exec_github.com/configwizard/sdk/controller.(*Controller).PerformContainerAction.func2, groups size: 0, keys: []
+debug 2024/01/09 13:11:44 3. perform action stopped
+debug 2024/01/09 13:11:44 emitting  {mock-notifier-94d9a4c7-9999-4055-a549-f51383edfe57  list complete! success 1 object object completed map[]  false}
+debug 2024/01/09 13:11:44 notification events: firing notification {Id:mock-notifier-94d9a4c7-9999-4055-a549-f51383edfe57 User: Title:list complete! Type:success Action:1 Description:object object completed Meta:map[] CreatedAt: MarkRead:false}
+debug 2024/01/09 13:11:44 FINISH closed action  0x104c1ae90
+debug 2024/01/09 13:12:21 3.1 container starting action chan handler
+debug 2024/01/09 13:12:21 created responsechannel  0x140004b72c0
+debug 2024/01/09 13:12:21 c.wallet SignRequest &{NQtxsStXxvtRyz2B1yJXTXCeEoxsUJBkxW 031ad3c83a6b1cbab8e19df996405cb6e18151a14f7ecd76eb4f51901db1426f0b {[mock signer] 0x104afb1b0}}
+debug 2024/01/09 13:12:21 have been requested to sign  [10 16 115 220 55 223 218 223 70 60 133 218 52 178 133 45 39 6 18 27 10 25 53 32 16 24 248 12 32 6 196 213 34 146 195 219 233 190 243 7 221 87 110 115 186 139 181 26 0 34 33 2 150 152 116 116 117 69 98 140 200 3 241 254 131 135 10 130 62 118 228 131 209 71 205 234 152 122 171 244 190 225 222 74 50 4 8 1 16 1]
+debug 2024/01/09 13:12:21 c.wallet UpdateFromWalletConnect &{NQtxsStXxvtRyz2B1yJXTXCeEoxsUJBkxW 031ad3c83a6b1cbab8e19df996405cb6e18151a14f7ecd76eb4f51901db1426f0b {[mock signer] 0x104afb1b0}}
+debug 2024/01/09 13:12:21 uid  06c9259b-651d-4ffc-b378-98945e965a46
+debug 2024/01/09 13:12:21 created updatedPayload  0x140004b72c0
+debug 2024/01/09 13:12:21 [2024-01-09T13:12:21Z] Add: container_action_chan-_github.com/configwizard/sdk/controller.(*Controller).PerformContainerAction.func1, groups size: 1, keys: [container_action_chan-_github.com/configwizard/sdk/controller.(*Controller).PerformContainerAction.func1]
+debug 2024/01/09 13:12:21 [2024-01-09T13:12:21Z] Add: container_action_exec_github.com/configwizard/sdk/controller.(*Controller).PerformContainerAction.func2, groups size: 2, keys: [container_action_exec_github.com/configwizard/sdk/controller.(*Controller).PerformContainerAction.func2 container_action_chan-_github.com/configwizard/sdk/controller.(*Controller).PerformContainerAction.func1]
+debug 2024/01/09 13:12:21 [2024-01-09T13:12:21Z] Add: containerList, groups size: 3, keys: [container_action_chan-_github.com/configwizard/sdk/controller.(*Controller).PerformContainerAction.func1 container_action_exec_github.com/configwizard/sdk/controller.(*Controller).PerformContainerAction.func2 containerList]
+debug 2024/01/09 13:12:21 [2024-01-09T13:12:21Z] Done: containerList, groups size: 2, keys: [container_action_chan-_github.com/configwizard/sdk/controller.(*Controller).PerformContainerAction.func1 container_action_exec_github.com/configwizard/sdk/controller.(*Controller).PerformContainerAction.func2]
+debug 2024/01/09 13:12:21 success type, creating notification for database
+debug 2024/01/09 13:12:21 3 closing everything down
+debug 2024/01/09 13:12:21 3 closed action chan handler
+debug 2024/01/09 13:12:21 [2024-01-09T13:12:21Z] Done: container_action_chan-_github.com/configwizard/sdk/controller.(*Controller).PerformContainerAction.func1, groups size: 1, keys: [container_action_exec_github.com/configwizard/sdk/controller.(*Controller).PerformContainerAction.func2]
+debug 2024/01/09 13:12:21 emitting  {mock-notifier-94d9a4c7-9999-4055-a549-f51383edfe57  list complete! success 1 object object completed map[]  false}
+debug 2024/01/09 13:12:21 notification events: firing notification {Id:mock-notifier-94d9a4c7-9999-4055-a549-f51383edfe57 User: Title:list complete! Type:success Action:1 Description:object object completed Meta:map[] CreatedAt: MarkRead:false}
+debug 2024/01/09 13:12:21 3. closed action handler
+debug 2024/01/09 13:12:21 [2024-01-09T13:12:21Z] Done: container_action_exec_github.com/configwizard/sdk/controller.(*Controller).PerformContainerAction.func2, groups size: 0, keys: []
+debug 2024/01/09 13:12:21 3. perform action stopped
+debug 2024/01/09 13:12:21 FINISH closed action  0x104afae90
+debug 2024/01/09 13:12:26 3.1 container starting action chan handler
+debug 2024/01/09 13:12:26 created responsechannel  0x140001b8660
+debug 2024/01/09 13:12:26 c.wallet SignRequest &{NQtxsStXxvtRyz2B1yJXTXCeEoxsUJBkxW 031ad3c83a6b1cbab8e19df996405cb6e18151a14f7ecd76eb4f51901db1426f0b {[mock signer] 0x104afb1b0}}
+debug 2024/01/09 13:12:26 have been requested to sign  [10 16 248 242 168 233 14 215 68 214 171 116 35 8 54 126 27 135 18 27 10 25 53 32 16 24 248 12 32 6 196 213 34 146 195 219 233 190 243 7 221 87 110 115 186 139 181 26 0 34 33 2 150 152 116 116 117 69 98 140 200 3 241 254 131 135 10 130 62 118 228 131 209 71 205 234 152 122 171 244 190 225 222 74 50 4 8 1 16 1]
+debug 2024/01/09 13:12:26 c.wallet UpdateFromWalletConnect &{NQtxsStXxvtRyz2B1yJXTXCeEoxsUJBkxW 031ad3c83a6b1cbab8e19df996405cb6e18151a14f7ecd76eb4f51901db1426f0b {[mock signer] 0x104afb1b0}}
+debug 2024/01/09 13:12:26 uid  c474fcb7-f836-4d4b-819d-fb3860a0ee71
+debug 2024/01/09 13:12:26 created updatedPayload  0x140001b8660
+debug 2024/01/09 13:12:26 [2024-01-09T13:12:26Z] Add: container_action_chan-_github.com/configwizard/sdk/controller.(*Controller).PerformContainerAction.func1, groups size: 1, keys: [container_action_chan-_github.com/configwizard/sdk/controller.(*Controller).PerformContainerAction.func1]
+debug 2024/01/09 13:12:26 [2024-01-09T13:12:26Z] Add: container_action_exec_github.com/configwizard/sdk/controller.(*Controller).PerformContainerAction.func2, groups size: 2, keys: [container_action_chan-_github.com/configwizard/sdk/controller.(*Controller).PerformContainerAction.func1 container_action_exec_github.com/configwizard/sdk/controller.(*Controller).PerformContainerAction.func2]
+debug 2024/01/09 13:12:26 [2024-01-09T13:12:26Z] Add: containerList, groups size: 3, keys: [container_action_chan-_github.com/configwizard/sdk/controller.(*Controller).PerformContainerAction.func1 container_action_exec_github.com/configwizard/sdk/controller.(*Controller).PerformContainerAction.func2 containerList]
+debug 2024/01/09 13:12:26 success type, creating notification for database
+debug 2024/01/09 13:12:26 [2024-01-09T13:12:26Z] Done: containerList, groups size: 2, keys: [container_action_chan-_github.com/configwizard/sdk/controller.(*Controller).PerformContainerAction.func1 container_action_exec_github.com/configwizard/sdk/controller.(*Controller).PerformContainerAction.func2]
+debug 2024/01/09 13:12:26 emitting  {mock-notifier-94d9a4c7-9999-4055-a549-f51383edfe57  list complete! success 1 object object completed map[]  false}
+debug 2024/01/09 13:12:26 3 closing everything down
+debug 2024/01/09 13:12:26 3 closed action chan handler
+debug 2024/01/09 13:12:26 [2024-01-09T13:12:26Z] Done: container_action_chan-_github.com/configwizard/sdk/controller.(*Controller).PerformContainerAction.func1, groups size: 1, keys: [container_action_exec_github.com/configwizard/sdk/controller.(*Controller).PerformContainerAction.func2]
+debug 2024/01/09 13:12:26 3. closed action handler
+debug 2024/01/09 13:12:26 notification events: firing notification {Id:mock-notifier-94d9a4c7-9999-4055-a549-f51383edfe57 User: Title:list complete! Type:success Action:1 Description:object object completed Meta:map[] CreatedAt: MarkRead:false}
+debug 2024/01/09 13:12:26 [2024-01-09T13:12:26Z] Done: container_action_exec_github.com/configwizard/sdk/controller.(*Controller).PerformContainerAction.func2, groups size: 0, keys: []
+debug 2024/01/09 13:12:26 3. perform action stopped
+debug 2024/01/09 13:12:26 FINISH closed action  0x104afae90

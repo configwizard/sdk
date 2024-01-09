@@ -1,0 +1,9 @@
+!wallets/
+wallets/*
+!wallets/.placeholder
+node_modules/
+frontend/build
+!frontend/src/dbg_data_structures/
+frontend/src/dbg_data_structures/*
+!frontend/src/dbg_data_structures/.placeholder
+.idea/
